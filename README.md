@@ -12,3 +12,10 @@ HTML Only
 HTML & CSS
 
     animations, keyframes, imported fonts, linear gradients, background image url path
+
+
+## Day 3
+
+HTML & CSS
+
+    mainly focused on position relative & absolute
