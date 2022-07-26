@@ -30,7 +30,7 @@ JS
 
 JS
 
-    Using the DOM. document & navigator
+    Using the DOM & navigator object
 
 - document.URL
 - document.domain
@@ -41,3 +41,4 @@ JS
 - navigator.appVersion
 - navigator.hardwareConcurrency
 - navigator.clipboard
+- window.alret()

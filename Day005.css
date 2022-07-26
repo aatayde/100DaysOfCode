@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1.title {
+    text-align: center;
+}
+
+.container {
+    color: #fff;
+    background-color: #121212;
+    text-align: left;
+    padding-top: 20vh;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 7%;
+}
+
+.data  {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.box {
+    padding: 1.5rem;
+}
