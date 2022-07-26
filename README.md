@@ -19,3 +19,25 @@ HTML & CSS
 HTML & CSS
 
     mainly focused on position relative & absolute
+
+## Day 4
+
+JS
+
+    onClick run function to get current time
+
+## Day 5 
+
+JS
+
+    Using the DOM. document & navigator
+
+- document.URL
+- document.domain
+- document.timeline
+- document.lastModified
+- navigator.userAgent
+- navigator.appCodeName
+- navigator.appVersion
+- navigator.hardwareConcurrency
+- navigator.clipboard
