@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #e3e3e3;
+    background-color: #121212;
+    /* text-align: center; */
+}
+
+/* .inputs {
+    background-color: #333;
+    color: #e3e3e3;
+    text-align: left;
+    border: none;
+} */
+
+.container {
+    padding: 15% 0;
+}
+
+.inputs,
+.btn {
+    padding: 1rem;
+    color: #e3e3e3;
+    background-color: #333;
+    border: none;
+    display: flex;
+}
