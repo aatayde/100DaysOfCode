@@ -42,3 +42,11 @@ JS
 - navigator.hardwareConcurrency
 - navigator.clipboard
 - window.alret()
+
+## Day 6
+
+    Relitive Change Calculator
+
+## Day 7 
+
+    Average acceleration calculator
