@@ -50,3 +50,11 @@ JS
 ## Day 7 
 
     Average acceleration calculator
+
+## Day 8
+
+    Light & Dark Mode 
+
+## Day 9
+
+    Hamburger Menu Icon with animation
