@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    transition: 0.25s;
+    text-align: center;
+    padding: 33vh 0 0 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {background-color: #121212; color: #e3e3e3}
+}
+
+@media (prefers-color-scheme: light) {
+    body {background-color: #e3e3e3; color: #000}
+}
