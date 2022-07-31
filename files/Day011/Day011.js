@@ -68,3 +68,8 @@ for(const fruit of fruits){
 for(const fruit in fruits){
     console.log(fruit)
 }
+
+// call function for each item in array
+fruits.forEach(function (item, index, array){
+    console.log(item, index)
+})
