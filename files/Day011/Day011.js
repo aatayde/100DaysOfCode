@@ -27,3 +27,14 @@ const myCharacter = [
 
 console.log(myCharacter)
 
+const fruits = ["apple", "banana", "cherry", "orange"]
+
+// Return index of item with indexOf
+console.log("Index of Durian: ", fruits.indexOf("durian"))
+
+// Check if item is in list
+console.log(fruits.includes("durian"))
+
+// Add item to array
+fruits.push("Durian")
+console.log(fruits)
