@@ -1,9 +1,11 @@
 # Day 11
 
-## Arrays!
+## :books: Arrays
 
-### 2022 / 07 / 31 
+An [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) is an object that can store a collection of multiple items under a single variable. 
 
-### Resources
+An Array can store arrays & objects.
 
-- [Array Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+The [Sort method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) references the array now sorted by default order accending.
+
+    
