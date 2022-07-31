@@ -7,3 +7,4 @@ console.log(myArray)
 // sort array by accending order (small to big)
 console.log(myArray.sort())
 
+console.log("length of array myArray: ", myArray.length)
