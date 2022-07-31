@@ -51,3 +51,9 @@ console.log(fruits)
 // add item to begining of array
 fruits.unshift("mango")
 console.log(fruits)
+
+// remove item by index
+const targetItem = fruits.indexOf("banana")
+const deleteCount = 1;
+fruits.splice(targetItem, deleteCount)
+console.log(fruits)
