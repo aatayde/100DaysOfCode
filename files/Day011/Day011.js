@@ -44,3 +44,7 @@ console.log(fruits)
 fruits.pop()
 console.log(fruits)
 
+// remove first item in array
+fruits.shift("apple")
+console.log(fruits)
+
