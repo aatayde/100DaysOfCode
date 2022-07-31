@@ -28,13 +28,19 @@ const myCharacter = [
 console.log(myCharacter)
 
 const fruits = ["apple", "banana", "cherry", "orange"]
+console.log("list of fruits: ", fruits)
 
 // Return index of item with indexOf
-console.log("Index of Durian: ", fruits.indexOf("durian"))
+console.log("Index of apple: ", fruits.indexOf("apple"))
 
 // Check if item is in list
-console.log(fruits.includes("durian"))
+console.log("Durian in list: ", fruits.includes("durian"))
 
 // Add item to array
 fruits.push("Durian")
 console.log(fruits)
+
+// remove last item from array
+fruits.pop()
+console.log(fruits)
+
