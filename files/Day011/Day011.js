@@ -48,3 +48,6 @@ console.log(fruits)
 fruits.shift("apple")
 console.log(fruits)
 
+// add item to begining of array
+fruits.unshift("mango")
+console.log(fruits)
