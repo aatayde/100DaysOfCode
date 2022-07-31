@@ -57,3 +57,14 @@ const targetItem = fruits.indexOf("banana")
 const deleteCount = 1;
 fruits.splice(targetItem, deleteCount)
 console.log(fruits)
+
+// itirate over array
+// return value
+for(const fruit of fruits){
+    console.log(fruit)
+}
+
+// return index
+for(const fruit in fruits){
+    console.log(fruit)
+}
