@@ -58,3 +58,15 @@ JS
 ## Day 9
 
     Hamburger Menu Icon with animation
+
+## Day 10
+
+    Recursian
+
+## Day 11
+
+    Arrays
+
+## Day 12
+
+    Sum all values in Array
