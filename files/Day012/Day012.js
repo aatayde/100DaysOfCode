@@ -6,5 +6,4 @@ const object = {
 
 console.log(object)
 
-const summmed = sumOfValues(object)
-console.log(summed)
+const summed = sumOfValues(object)
