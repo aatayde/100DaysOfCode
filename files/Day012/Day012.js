@@ -5,11 +5,13 @@ const object = {
 }
 
 function sumOfValues(obj){
-
+let sum = 0;
     for (value in obj){
-       console.log(obj[value])
+       sum += parseFloat(obj[value])
     }
+    return sum;
 }
 
 const summed = sumOfValues(object)
+console.log("Sum of values: ", summed)
 
