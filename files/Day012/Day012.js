@@ -4,6 +4,10 @@ const object = {
     "item-3": 3,
 }
 
-console.log(object)
+function sumOfValues(obj){
+
+    console.log(object)
+}
 
 const summed = sumOfValues(object)
+
