@@ -69,4 +69,8 @@ JS
 
 ## Day 12
 
-    Sum all values in an Object
+    Sum all values in Object
+
+## Day 13
+
+    Sum of Values in Array
