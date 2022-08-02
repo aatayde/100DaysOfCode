@@ -6,7 +6,9 @@ const object = {
 
 function sumOfValues(obj){
 
-    console.log(object)
+    for (value in obj){
+       console.log(obj[value])
+    }
 }
 
 const summed = sumOfValues(object)
