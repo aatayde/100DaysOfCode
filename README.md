@@ -74,3 +74,7 @@ JS
 ## Day 13
 
     Sum of Values in Array
+
+## Day 14 
+
+    SVG icons
