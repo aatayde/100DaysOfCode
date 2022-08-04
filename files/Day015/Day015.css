@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e3e3e3;
+}
+
+.grid-1 {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+.item {
+    background-color:teal;
+    height: 2rem;
+    width: 2rem;
+}
