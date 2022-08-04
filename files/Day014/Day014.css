@@ -10,7 +10,7 @@ body {
 
 }
 
-.title {
+.center {
     color: #e3e3e3;
     position: absolute;
     top: 50%;
@@ -19,3 +19,12 @@ body {
     max-width: 100%;
     
 }
+
+.icon {
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #e3e3e3;
+  }
