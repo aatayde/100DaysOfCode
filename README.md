@@ -82,3 +82,7 @@ JS
 ## Day 15
 
     CSS Grid
+
+## Day 16
+
+    More CSS Grid
