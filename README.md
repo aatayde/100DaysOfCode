@@ -86,3 +86,7 @@ JS
 ## Day 16
 
     More CSS Grid
+
+## Day 17
+
+    MORE CSS GRID LAYOUT
