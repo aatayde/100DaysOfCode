@@ -10,6 +10,10 @@ body {
     padding: 33vh 0 0 0;
 }
 
+#title {
+    padding: 2rem 0;
+}
+
 @media (prefers-color-scheme: dark) {
     body {background-color: #121212; color: #e3e3e3}
 }
