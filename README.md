@@ -94,3 +94,7 @@ JS
 ## Day 18 
 
     JavaScript Cowndown Timer
+
+## Day 19
+
+    Putting it all pages together & managing them
