@@ -8,3 +8,6 @@
 ### Resources
 
 - [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
+- [getTime](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)
+    returns time in miliseconds
