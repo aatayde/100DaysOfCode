@@ -1,6 +1,6 @@
 # 100 Days Of Code
 
-## Day 1
+## [Day 1](./files/Day001/Day001.html)
 
 HTML Only
 
@@ -101,4 +101,4 @@ JS
 
 ## Day 20
 
-    
+    Updates to Day 8, 11, 12, & 13
