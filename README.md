@@ -58,3 +58,43 @@ JS
 ## Day 9
 
     Hamburger Menu Icon with animation
+
+## Day 10
+
+    Recursian
+
+## Day 11
+
+    Arrays
+
+## Day 12
+
+    Sum all values in Object
+
+## Day 13
+
+    Sum of Values in Array
+
+## Day 14 
+
+    SVG icons
+
+## Day 15
+
+    CSS Grid
+
+## Day 16
+
+    More CSS Grid
+
+## Day 17
+
+    MORE CSS GRID LAYOUT!!!
+
+## Day 18 
+
+    JavaScript Cowndown Timer
+
+## Day 19
+
+    Putting it all pages together & managing them

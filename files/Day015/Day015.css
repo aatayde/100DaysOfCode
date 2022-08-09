@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e3e3e3;
+}
+
+.item {
+    background-color:teal;
+    height: 2rem;
+    width: 2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.grid-1 {
+    justify-content: center;
+   
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}

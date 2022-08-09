@@ -1,0 +1,41 @@
+
+body {
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid: 
+    "head" auto
+    "nav" auto
+    "main" 1fr
+    "foot" auto / 1fr;
+    gap: 1em;
+    color: #e3e3e3;
+    background-color: darkmagenta;
+}
+
+
+
+
+header {grid: head;}
+nav {grid: nav;}
+main {grid: main;}
+footer {grid: foot;}
+
+header,
+nav,
+main,
+footer {
+    padding: 1em;
+    background-color: #121212;
+}
+
+@media (min-width: 40em){
+    body {
+        grid-template-columns: 12em 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    header {grid-column: span 2}
+    nav {grid-row: span 2;}
+    
+}
