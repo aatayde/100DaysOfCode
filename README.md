@@ -90,3 +90,7 @@ JS
 ## Day 17
 
     MORE CSS GRID LAYOUT!!!
+
+## Day 18 
+
+    JavaScript Cowndown Timer
