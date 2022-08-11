@@ -1,4 +1,4 @@
-# 100 Days Of Code
+# [100 Days Of Code](https://aatayde.github.io/100DaysOfCode/)
 
 ## [Day 1](./files/Day001/Day001.html)
 
@@ -106,3 +106,7 @@ JS
 ## Day 21 
 
     Presentation Page
+
+## Day 22
+
+    Updating main index page with short descriptions
