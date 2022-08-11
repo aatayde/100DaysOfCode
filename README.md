@@ -105,4 +105,4 @@ JS
 
 ## Day 21 
 
-    Car Landing Page
+    Presentation Page
