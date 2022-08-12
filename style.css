@@ -1,0 +1,31 @@
+
+
+:root {
+    --abyss-black: #121212;
+    --soft-white: #e3e3e3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove Anchor tag color */
+a { text-decoration: none; }
+
+.title {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {background-color: var(--abyss-black); color: var(--soft-white)}
+    a {color:var(--soft-white)}
+    
+}
+
+@media (prefers-color-scheme: light) {
+    body {background-color: var(--soft-white); color: #000}
+    a {color: #000;}
+}
