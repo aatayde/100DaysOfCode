@@ -110,3 +110,8 @@ JS
 ## Day 22
 
     Updating main index page with short descriptions
+
+## Day 23
+
+    JavaScript Clipboard
+

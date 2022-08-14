@@ -1,0 +1,11 @@
+.container  {
+    width: 100%;
+    text-align: center;
+}
+
+.btn, .input {
+    background-color: #333;
+    color: #e3e3e3;
+    border: none;
+    padding: 1rem;
+}
