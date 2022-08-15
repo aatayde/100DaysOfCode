@@ -5,3 +5,4 @@
 ### Resources 
 
 - [Weather API](https://www.weatherapi.com/docs/)
+- [gitignore](https://git-scm.com/docs/gitignore)
