@@ -1,5 +1,5 @@
 # Day 25
 
-## ToDo List
+## To Do List
 
 ### Resources
