@@ -121,3 +121,10 @@ JS
 
     Weather API
     
+## [Day 25](./files/Day025/README.md)
+
+    JavaScript Create Element 
+
+## [Day 26](./files/Day026/README.md) 
+
+    CSS Menu
