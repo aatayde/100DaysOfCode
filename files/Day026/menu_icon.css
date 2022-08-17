@@ -1,18 +1,26 @@
-
 .navigation__checkbox {
     display: none;
 }
 
 .navigation__button {
+    z-index: 2;
     position: fixed;
     top: 5rem;
     right: 5rem;
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
-    z-index: 2;
-    /* Box shadow: x-index y-index, blur, color */
-    
+}
+
+
+.navigation__background {
+    z-index: 1;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
 }
 
 .navigation__icon {
@@ -44,9 +52,7 @@
     top: .8rem;
 }
 
-
-
-
+/* Box shadow: x-index y-index, blur, color */
 @media (prefers-color-scheme: dark) {
     .navigation__button {
         background-color: #333;
@@ -54,8 +60,10 @@
     }
 
     .navigation__icon, 
-.navigation__icon::before,
-.navigation__icon::after { background-color: #e3e3e3;}
+    .navigation__icon::before,
+    .navigation__icon::after { background-color: #e3e3e3;}
+
+    .navigation__background { background-image: radial-gradient(#249A8A, #046D5F);}
     
 }
 
@@ -66,7 +74,9 @@
     }
 
     .navigation__icon, 
-.navigation__icon::before,
-.navigation__icon::after { background-color: #121212;}
-}
+    .navigation__icon::before,
+    .navigation__icon::after { background-color: #121212;}
+    }
+
+    .navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
 
