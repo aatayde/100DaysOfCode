@@ -127,4 +127,4 @@ JS
 
 ## [Day 26](./files/Day026/README.md) 
 
-    CSS Menu Animation
+    CSS Menu
