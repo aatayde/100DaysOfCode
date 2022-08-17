@@ -2,3 +2,31 @@
 .navigation__checkbox {
     display: none;
 }
+
+.navigation__button {
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    z-index: 2;
+    /* Box shadow: x-index y-index, blur, color */
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    .navigation__button {
+        background-color: #333;
+        box-shadow: 0 0rem 2rem rgba(255, 255, 255, 0.4);
+    }
+    
+}
+
+@media (prefers-color-scheme: light) {
+    .navigation__button {
+        background-color: #fff;
+        box-shadow: 0 0rem 2rem rgba(0,0,0,0.1);
+    }
+}
+
