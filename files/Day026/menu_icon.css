@@ -21,6 +21,7 @@
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
+    transition:transform 0.8s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1)
 }
 
 .navigation__icon {
@@ -52,6 +53,11 @@
     top: .8rem;
 }
 
+.navigation__checkbox:checked ~ .navigation__background {
+    -webkit-transform:scale(80);
+    transform:scale(80)
+}
+
 /* Box shadow: x-index y-index, blur, color */
 @media (prefers-color-scheme: dark) {
     .navigation__button {
@@ -76,7 +82,8 @@
     .navigation__icon, 
     .navigation__icon::before,
     .navigation__icon::after { background-color: #121212;}
+    
+    .navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
     }
 
-    .navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
 
