@@ -1,0 +1,27 @@
+.navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
+
+.navigation__list {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation__nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.navigation__item {
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation__link {
+
+}
