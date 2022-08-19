@@ -1,3 +1,15 @@
+@keyframes moveIn {
+    0% {
+        transform: translateX(0);
+    }
+    80% {
+        transform: translateX(3rem)
+    }
+    100% {
+        transform: translateX(1rem);
+    }
+}
+
 .navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
 
 .navigation__list {
@@ -18,10 +30,30 @@
 
 .navigation__item {
     margin: 1rem;
+    
+}
+
+.navigation__link {
+    text-transform: uppercase;
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 
-.navigation__link {
-
+.navigation__link:link,
+.navigation__link:visited {
+    padding: 0.5rem;
 }
+
+
+.navigation__link:hover,
+.navigation__link:active {
+    color: #6FCBBE;
+    background: linear-gradient(45deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 235%;
+    background-position: 100%;
+    animation-name: moveIn;
+    animation-duration: 1s;
+    
+    transition: all 0.4s ease-in-out;
+}
+
