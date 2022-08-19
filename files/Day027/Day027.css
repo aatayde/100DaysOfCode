@@ -1,19 +1,5 @@
-@keyframes moveIn {
-    0% {
-        transform: translateX(0);
-    }
-    80% {
-        transform: translateX(3rem)
-    }
-    100% {
-        transform: translateX(1rem);
-    }
-}
-
-.navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
-
 .navigation__list {
-    position: fixed;
+    position: absolute;
     height: 100vh;
     top: 0;
     left: 0;
@@ -42,18 +28,45 @@
 .navigation__link:link,
 .navigation__link:visited {
     padding: 0.5rem;
+    display: inline-block;
 }
 
 
 .navigation__link:hover,
 .navigation__link:active {
-    color: #6FCBBE;
-    background: linear-gradient(45deg, transparent 0%, transparent 50%, #fff 50%);
     background-size: 235%;
     background-position: 100%;
-    animation-name: moveIn;
+
     animation-duration: 1s;
     
     transition: all 0.4s ease-in-out;
+    
 }
 
+@media (prefers-color-scheme: dark){
+
+    .navigation__background { background-image: radial-gradient(#249A8A, #046D5F);}
+
+    .navigation__link:hover,
+    .navigation__link:active {
+    color: #6FCBBE;
+    background: linear-gradient(45deg, transparent 0%, transparent 50%, #333 50%);
+    background-size: 235%;
+    background-position: 100%;
+    
+    }
+    
+}
+
+@media (prefers-color-scheme: light){
+
+    .navigation__background { background-image: radial-gradient(#6FCBBE, #249A8A);}
+
+    .navigation__link:hover,
+    .navigation__link:active {
+    color: #046D5F;
+    background: linear-gradient(45deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 235%;
+    background-position: 100%;
+    }
+}
