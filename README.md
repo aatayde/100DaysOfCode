@@ -127,4 +127,8 @@ JS
 
 ## [Day 26](./files/Day026/README.md) 
 
-    CSS Menu
+    Advanced CSS Menu animation
+
+## [Day 27](./files/Day027/README.md)
+
+    Advanced CSS Navigation Menu 
