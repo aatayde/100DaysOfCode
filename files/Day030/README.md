@@ -7,7 +7,7 @@
 [Dogecoin.com](https://dogecoin.com/) has a great design when I viewed it in landscape mode.
     I'm impressived by website it's design. I opened the developer options shortly after  
 
-    the after pseudo element utilized to make a small right angled triancle 
+    the after pseudo element utilized to make a small right angled triancle next to a box with a slight border radius, creating a word bubble effect.
 
 ### Resources used
 
@@ -40,4 +40,19 @@
     
 ###### Just start 
 
-    Run automator on macOS 
+
+
+1.  create a new branch to work in
+
+2. create a folder 
+
+3. create a markdown file
+
+4. add contents to markdown file
+
+5. add staging changes 
+
+6. commit starting files 
+
+7. push changes to branch
+
