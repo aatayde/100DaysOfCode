@@ -11,7 +11,7 @@
 
 ### Resources used
 
-- [padding](https://getbootstrap.com/docs/5.2/utilities/spacing/#margin-and-padding) left & right using px-4 
+- [padding](https://getbootstrap.com/docs/5.2/utilities/spacing/#margin-and-padding) left & right using px-4 when working with bootstrap
 
 ### Automation 
 
