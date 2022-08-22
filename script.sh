@@ -18,14 +18,15 @@ echo "Create directory"
 mkdir ./files/Day0$day/
 sleep 1
 
-# Create markdown
-echo "Create markdown"
-touch ./files/Day0$day/README.md 
+
+# Create File & Add Content
+echo "Create markdown & Add Content"
+echo "# $day" > ./files/Day0$day/README.md
 sleep 1
 
 # add staging changes
 echo "Add staging changes"
-git add .
+git add README.md
 sleep 1
 
 # commit changes
