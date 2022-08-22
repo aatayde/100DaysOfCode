@@ -132,3 +132,15 @@ JS
 ## [Day 27](./files/Day027/README.md)
 
     Advanced CSS Navigation Menu 
+
+## [Day 28](./files/Day027/README.md)
+
+    Bootstrap Navabr 
+
+## [Day 29](./files/Day027/README.md)
+
+    Bootstrap Carousel 
+
+## [Day 30](./files/Day027/README.md)
+
+    Bash Script Automation
