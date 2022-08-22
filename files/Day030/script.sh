@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# Start script
 echo "Running Script"
+sleep 1
 
 # Create new brach to work out of
 echo "Create new branch"
@@ -31,3 +33,6 @@ sleep 1
 echo "Push changes to current branch"
 # git push -u origin Day-31
 sleep 1
+
+# complete
+echo "Complete"
