@@ -15,12 +15,12 @@ sleep 1
 
 # create directory
 echo "Create directory"
-mkdir Day0$day/
+mkdir ../Day0$day/
 sleep 1
 
 # Create markdown
 echo "Create markdown"
-touch Day0$day/README.md 
+touch ../Day0$day/README.md 
 sleep 1
 
 # add staging changes
