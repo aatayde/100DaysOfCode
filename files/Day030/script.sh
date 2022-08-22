@@ -1,22 +1,28 @@
 #!/bin/bash
 
+echo "What coding day is it?"
+
+read day
+
+echo "Today is day $day of 100 days of code!"
+
 # Start script
 echo "Running Script"
 sleep 1
 
 # Create new brach to work out of
 echo "Create new branch"
-# git checkout -b Day-31
+# git checkout -b Day-$day
 sleep 1
 
 # create directory
 echo "Create directory"
-# mkdir Day031/
+# mkdir Day0$day/
 sleep 1
 
 # Create markdown
 echo "Create markdown"
-# touch Day031/README.md 
+# touch Day0$day/README.md 
 sleep 1
 
 # add staging changes
@@ -31,7 +37,7 @@ sleep 1
 
 # push changes to current branch
 echo "Push changes to current branch"
-# git push -u origin Day-31
+# git push -u origin Day-$day
 sleep 1
 
 # complete
