@@ -4,10 +4,8 @@ echo "What coding day is it?"
 
 read day
 
-echo "Today is day $day of 100 days of code!"
-
 # Start script
-echo "Running Script"
+echo "Running Script for Day $day"
 sleep 1
 
 # Create new brach to work out of
@@ -41,4 +39,4 @@ echo "Push changes to current branch"
 sleep 1
 
 # complete
-echo "Complete"
+echo "Complete! Happy coding!"
