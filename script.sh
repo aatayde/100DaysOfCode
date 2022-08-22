@@ -21,12 +21,12 @@ sleep 1
 
 # Create File & Add Content
 echo "Create markdown & Add Content"
-echo "# $day" > ./files/Day0$day/README.md
+echo "# Day $day" > ./files/Day0$day/README.md
 sleep 1
 
 # add staging changes
 echo "Add staging changes"
-git add README.md
+git add ./files/Day0$day/README.md
 sleep 1
 
 # commit changes
