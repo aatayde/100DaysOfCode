@@ -2,6 +2,8 @@
 
 ## Bootstrap Cards in a grid
 
+    Mobile first approach cards in a grid
+
 ### Resources used
 
 #### Boot Strap
@@ -12,7 +14,7 @@
 
 #### media
 
--[unsplash]()
+- Images from [unsplash](https://unsplash.com/)
 - HummingBBird By [Joshua J. Cotten](https://unsplash.com/@jcotten)
 - Umbrella in the rain by [Anh Nguyen](https://unsplash.com/@pwign)
 - Cup of tea by [petr sidorov](https://unsplash.com/@m_malkovich)
