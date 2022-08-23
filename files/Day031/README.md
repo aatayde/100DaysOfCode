@@ -2,7 +2,8 @@
 
 ## Bootstrap Cards in a grid
 
-### Resources
+### Resources used
 
-- [grid](https://getbootstrap.com/docs/5.2/layout/grid/)
-- [cards](https://getbootstrap.com/docs/5.2/components/card/)
+- [CDN](https://getbootstrap.com/)
+- [Grid](https://getbootstrap.com/docs/5.2/layout/grid/)
+- [Cards](https://getbootstrap.com/docs/5.2/components/card/)
