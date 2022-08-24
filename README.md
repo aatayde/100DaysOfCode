@@ -147,5 +147,8 @@ JS
 
 ## [Day 31](./files/Day031/README.md)
 
-    
+    Bootstrap Grid & Cards
 
+## [Day 32](./files/Day032/README.md)
+
+    JavaScript Local Storage

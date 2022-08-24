@@ -4,4 +4,4 @@
 
 ### Resources used
 
--  MDN [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+-  MDN [JavaScript Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
