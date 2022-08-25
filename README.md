@@ -152,3 +152,7 @@ JS
 ## [Day 32](./files/Day032/README.md)
 
     JavaScript Local Storage
+
+## [Day 33](./files/Day033/README.md)
+
+    JavaScript Secret Password
