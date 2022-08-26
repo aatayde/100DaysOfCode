@@ -2,15 +2,15 @@
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ User Input ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # User input for savingAmount
-print('Please enter the amount you wish to add monthly:')
+print('Please enter the amount you wish to invest monthly:')
 investment = int(input())
 
 # user input for Percentage
-print('Please enter the percentage you wish to increase the starting amount by:')
+print('Please enter the percentage amount:')
 percentageIncrease = int(input()) / 100
 
 #user input for Time
-print('Please enter the desired amout you would like to reach:')
+print('Please enter the desired amount you wish to reach:')
 target = float(input())
 
 
