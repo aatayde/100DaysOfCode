@@ -156,3 +156,7 @@ JS
 ## [Day 33](./files/Day033/README.md)
 
     JavaScript Secret Password
+
+## [Day 34](./files/Day034/README.md)
+
+    Python APY calculator
