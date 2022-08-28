@@ -164,3 +164,7 @@ JS
 ## [Day 35](./files/Day035/README.md)
 
     Product Page for APY Calculator
+    
+## [Day 36](./files/Day036/README.md)
+
+    CSS Neon Text

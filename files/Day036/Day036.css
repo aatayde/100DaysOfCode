@@ -1,0 +1,29 @@
+.neonText {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    animation-name: pulse;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes pulse {
+    0%, 100% {
+        text-shadow: none;
+    }
+
+    20%, 80% {
+        text-shadow: #e5a37d 0 0 10px;
+    }
+
+    50%, 75% {
+        text-shadow: #e5a37d 0 0 20px;
+    }
+
+    69% {
+        text-shadow: #e5a37d 0 0 30px;
+    }
+    
+}
