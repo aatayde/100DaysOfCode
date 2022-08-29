@@ -23,6 +23,14 @@ a { text-decoration: none; }
     font-family: 'Dancing Script', cursive;
 }
 
+.heading {
+    padding: 0 0 0 1rem;
+}
+
+.description {
+    padding: .5rem 0 1rem 2rem;
+}
+
 @media (prefers-color-scheme: dark) {
     body {background-color: var(--abyss-black); color: var(--soft-white)}
     a {color:var(--soft-white)}
