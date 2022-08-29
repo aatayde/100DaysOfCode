@@ -168,3 +168,7 @@ JS
 ## [Day 36](./files/Day036/README.md)
 
     CSS Neon Text
+
+## [Day 37](./files/Day037/README.md)
+
+    Update site heading & description alignments
