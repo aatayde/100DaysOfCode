@@ -172,3 +172,7 @@ JS
 ## [Day 37](./files/Day037/README.md)
 
    CSS Color Rotate
+
+## [Day 38](./files/Day038/README.md)
+
+    Style Update of main page
