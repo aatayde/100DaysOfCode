@@ -179,4 +179,8 @@ JS
 
 ## [Day 39](./files/Day039/README.md)
 
-    
+    JavaScript Pizza Calculator
+
+## [Day 40](./files/Day040/README.md)
+
+    My First Node Server
