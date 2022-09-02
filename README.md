@@ -184,3 +184,8 @@ JS
 ## [Day 40](./files/Day040/README.md)
 
     My First Node Server
+
+## [Day 41](./files/Day041/README.md)
+
+    Node Server Error handling
+    
