@@ -189,3 +189,6 @@ JS
 
     Node Server Error handling
     
+## [Day 42](./files/Day042/README.md)
+
+    Node log object
