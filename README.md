@@ -192,3 +192,7 @@ JS
 ## [Day 42](./files/Day042/README.md)
 
     Node log object
+
+## [Day 43](./files/Day043/README.md)
+
+    Node NPM package manager
