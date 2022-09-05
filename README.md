@@ -196,3 +196,7 @@ JS
 ## [Day 43](./files/Day043/README.md)
 
     Node NPM package manager
+
+## [Day 44](./files/Day044/README.md)
+
+    Node Crypto
