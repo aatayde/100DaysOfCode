@@ -40,7 +40,8 @@ Cookies are self destructing peices of data saved in client storage to be used b
 
 
 ## How to use an HTTP Cookie???
-create a cookie by using the `Set-Cookie` response header
+- server side: create a cookie by using the `Set-Cookie` response header
+- [JS](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie) `Document.cookie` 
 
 
 ## Thoughts / Planning
