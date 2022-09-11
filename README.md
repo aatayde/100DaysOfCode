@@ -204,3 +204,7 @@ JS
 ## [Day 45](./files/Day045/cookie.html)
 
     HTTP Cookies
+    
+## [Day 46](./files/Day046/index.php)
+
+    My first PHP file
