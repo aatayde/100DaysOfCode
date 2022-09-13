@@ -208,3 +208,7 @@ JS
 ## [Day 46](./files/Day046/index.php)
 
     My first PHP file
+
+## [Day 47](./files/Day047/index.html)
+
+    HTML Input tag with type set to Date
