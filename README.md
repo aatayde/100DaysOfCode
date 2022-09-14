@@ -216,3 +216,7 @@ JS
 ## [Day 48](./files/Day048/myfirstprogram.cpp)
 
     My first C++ program
+
+## [Day 49](./files/Day049/README.md)
+
+    Switch Case Menu
