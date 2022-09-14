@@ -20,6 +20,11 @@ do {
         case 3:
             cout << "Quitting program \n";
             break;
+            // When I enter a number, code returns default
+            // When I enter a letter, code returns infinate loop ???
+        default:
+            cout << "Please select a vaild option \n";
+            break;
     }
     } while (menu != 3);
     
