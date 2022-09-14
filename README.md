@@ -201,19 +201,19 @@ JS
 
     Node Crypto
 
-## [Day 45](./files/Day045/cookie.html)
+## [Day 45](./files/Day045/README.md)
 
     HTTP Cookies
     
-## [Day 46](./files/Day046/index.php)
+## [Day 46](./files/Day046/README.md)
 
     My first PHP file
 
-## [Day 47](./files/Day047/index.html)
+## [Day 47](./files/Day047/README.md)
 
     HTML Input tag with type set to Date
 
-## [Day 48](./files/Day048/myfirstprogram.cpp)
+## [Day 48](./files/Day048/README.md)
 
     My first C++ program
 
