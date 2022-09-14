@@ -3,35 +3,21 @@ using namespace std;
 
 int main(){
 
-int day = 4;
+int menu;
 
-    switch(day){
+cout << "1. Print Valid Items Unsorted. \n 2. Print invalid records from an error file. \n 3. Exit program. \n";
+
+cin >> menu;
+
+    switch(menu){
         case 1:
-            cout << "Monday";
+            cout << "Valid Item Records";
             break;
-        
         case 2:
-            cout << "Tuesday";
+            cout << "Invalid Item Records";
             break;
-        
         case 3:
-            cout << "Wednesday";
-            break;
-        
-        case 4:
-            cout << "Thursday";
-            break;
-        
-        case 5:
-            cout << "Friday";
-            break;
-        
-        case 6:
-            cout << "Saturday";
-            break;
-        
-        case 7:
-            cout << "Sunday";
+            cout << "Quiting program";
             break;
     }
     
