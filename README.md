@@ -212,3 +212,7 @@ JS
 ## [Day 47](./files/Day047/index.html)
 
     HTML Input tag with type set to Date
+
+## [Day 48](./files/Day048/myfirstprogram.cpp)
+
+    My first C++ program
