@@ -220,3 +220,7 @@ JS
 ## [Day 49](./files/Day049/README.md)
 
     Switch Case Menu
+
+## [Day 50](./files/Day050/README.md)
+
+    CSS Animations

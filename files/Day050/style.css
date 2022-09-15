@@ -1,0 +1,49 @@
+.container {
+    animation-name: scaleUp;
+    min-height: 100vh;
+    animation-duration: .6s;
+    /* border: 1rem solid #e3e3e3; */
+}
+
+.title {
+    animation-name: fadeIn;
+    animation-duration: .6s;
+    transition: .6s;
+}
+
+/* animations */
+
+/* Fade In */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    55% {
+      opacity: .5;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+
+/* Scale Down */
+@keyframes scaleUp {
+    0% { scale: 0;}
+    100% { scale: 1;}
+}
+
+/* Media Queries */
+@media (prefers-color-scheme: dark) {
+    .container {
+        border: 1rem solid #e3e3e3;
+    }
+    
+}
+
+@media (prefers-color-scheme: light) {
+    .container {
+        border: 1rem solid #121212;
+    }
+}
