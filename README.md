@@ -227,4 +227,4 @@ JS
 
 ## [Day 51](./files/Day051/README.md)
 
-    CSS Grid Overlay
+    CSS Gradient Text
