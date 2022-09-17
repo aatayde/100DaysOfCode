@@ -1,4 +1,21 @@
 .gradient-text {
-    background-image: 
-        linear-gradient(90deg, lime, teal);
+    background-image: linear-gradient(45deg, purple, teal, lime);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+
+    animation-name: rotateColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateColor {
+0% {
+    filter: hue-rotate(0deg)
+}
+
+100% {
+    filter: hue-rotate(360deg)
+}
 }
