@@ -228,3 +228,8 @@ JS
 ## [Day 51](./files/Day051/README.md)
 
     CSS Gradient Text
+
+## [Day 52](./files/Day052/README.md)
+
+    CSS Grid Stacking
+
