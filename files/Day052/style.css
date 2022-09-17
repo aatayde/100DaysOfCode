@@ -1,0 +1,25 @@
+/* Create Grid */
+.stack {
+    /* set content as tall as the browser */
+    min-height: 100vh;
+
+    display: grid;
+
+    /* Center elements */
+    place-items: center;
+    isolation: isolate;
+}
+
+/* Add all children into same container */
+.stack > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+/* target image & move behind everything */
+.stack > .image {
+    z-index: -1;
+    width: 100%;
+}
+
+
