@@ -1,0 +1,25 @@
+
+
+.textShadow {
+    color: coral;
+    font-size: 6em;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    text-shadow: 
+    0.025em 0.025em 0 yellow,
+    0.050em 0.050em 0 blue,
+    0.075em 0.075em 0 red,
+    0.1em 0.1em 0 green;
+    animation-name: changeColor;
+    animation-duration: 140ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(3600deg);
+    }
+}

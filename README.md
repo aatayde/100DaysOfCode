@@ -233,7 +233,11 @@ JS
 
     CSS Grid Stacking
 
-## [Day 53](./files/Day052/README.md)
+## [Day 53](./files/Day053/README.md)
 
     CSS Highlight Animation
+
+## [Day 54](./files/Day054/README.md)
+
+    CSS Text Shadows
 
