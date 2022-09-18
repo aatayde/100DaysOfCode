@@ -1,3 +1,11 @@
+.gradient-text {
+    background-image: linear-gradient(45deg, #56B78D,#33A071,#13935C,#0A7748,#005C35);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.3em;
+}
+
 .container {
     display: grid;
     place-items: center;
@@ -16,7 +24,7 @@
     0 0 0 50px #005C35;
     
 
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     max-width: 25em;
     padding: 1em 2em;
