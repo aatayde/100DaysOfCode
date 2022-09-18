@@ -40,7 +40,6 @@ a { text-decoration: none; }
     background-repeat: no-repeat;
     background-position: left bottom;
     transition: background-size 300ms ease;
-
 }   
 
 .link:hover {
