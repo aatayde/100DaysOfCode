@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container > * {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+
+    box-shadow: 
+    0 0 0 10px #56B78D,
+    0 0 0 20px #33A071,
+    0 0 0 30px #13935C,
+    0 0 0 40px #0A7748,
+    0 0 0 50px #005C35;
+    
+
+    width: 50%;
+    margin: 0 auto;
+    max-width: 25em;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
