@@ -251,5 +251,9 @@ JS
 
 ## [Day 57](./files/Day057/README.md)
 
-    Random Number Generator
+    JavaScript Random Number Generator
+    
+## [Day 58](./files/Day058/README.md)
+
+    JavaScript KWh Charging Calculator
     

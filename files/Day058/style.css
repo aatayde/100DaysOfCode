@@ -1,0 +1,23 @@
+.container {
+    /* text-align: left; */
+    /* padding-top: 20vh; */
+    padding: 0 1.75rem;
+}
+.container > * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    /* Last Change to style sheet */
+    display: grid;
+}
+
+/* .row {
+    
+} */
+
+.btn {
+    padding: 1rem;
+    border-radius: 7%;
+    text-align: center;
+}
