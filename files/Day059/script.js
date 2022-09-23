@@ -1,1 +1,5 @@
-console.log("hello, world!")
+localStorage.setItem('myCat', 'Tom');
+
+function save(){
+    console.log("hello, world!")
+}
