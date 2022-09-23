@@ -1,5 +1,7 @@
-localStorage.setItem('myCat', 'Tom');
 
 function save(){
-    console.log("hello, world!")
+    console.log(document.getElementById("dog").value)
+
+    // localStorage.setItem('myDog', 'Jerry');
+    // console.log(localStorage)
 }
