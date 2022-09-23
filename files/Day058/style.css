@@ -18,6 +18,20 @@
 
 .btn {
     padding: 1rem;
-    border-radius: 7%;
+    border-radius: 2%;
     text-align: center;
+}
+
+.inputs {
+    font-size: 1em;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark){
+    .inputs, .btn {
+        background-color: #333;
+        color: #e3e3e3;
+        border: #222;
+    }
 }

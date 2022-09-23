@@ -15,13 +15,18 @@
         <div class="grid">
             <div class="row">
                 <label for="power">KW</label>
-                <input type="text" id="power">
+                <input class="inputs" type="text" id="power">
             </div>
             <div class="row">
                 <label for="storage">KWh</label>
-                <input type="text" id="storage">
+                <input class="inputs" type="text" id="storage">
             </div>
                 <button class="btn" id="calculate" onclick="clicked()" >Calculate</button>
+                <div class="row">
+                    <label>Minutes</label>
+                    <span id="minutes"></span>
+                    <!-- <input class="inputs" type="text" id="minutes" readonly=""> -->
+                </div>
         </div>
     </div>
     <script src="script.js"></script>

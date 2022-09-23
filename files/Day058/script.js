@@ -5,9 +5,6 @@ const storage = Number(document.getElementById("storage").value);
 
 
 function clicked(){
-    // This is not showing up an alert messages when clicked
-
-    console.log(typeof(storage))
-    console.log(typeof(power))
-    console.log(power+storage)
+    document.getElementById("minutes").innerText = ((storage/power) * 60);
+    
 }
