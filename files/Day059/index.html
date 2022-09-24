@@ -10,9 +10,26 @@
 </head>
 <body>
     <h1 class="title">Hello, World!</h1>
-    <label for="dog">Dog Name</label>
-    <input type="text" name="dog" id="dog">
-    <button onclick="save()">Save</button>
+    
+
+
+    <div class="box">
+        <label for="log">log Local Storage</label>
+        <button onclick="log()">Check log</button>
+    </div>
+    
+    <div class="box">
+        <label for="dog">Dog Name</label>
+        <input type="text" name="dog" id="dog">
+        <button onclick="save()">Save</button>
+    
+    </div>
+    
+    <div class="box">
+        <label for="clear">Clear Local Storage</label>
+        <button onclick="remove()">Clear</button>
+    </div>
+        
     <script src="script.js"></script>
 </body>
 </html>
