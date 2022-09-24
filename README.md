@@ -257,3 +257,7 @@ JS
 
     JavaScript KWh Charging Calculator
     
+## [Day 59](./files/Day059/README.md)
+
+    JavaScript save / clear local storage & onload event listener
+    
