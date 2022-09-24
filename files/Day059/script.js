@@ -1,4 +1,5 @@
 let heading = document.getElementById("heading")
+let logDog = localStorage.getItem('myDog');
 
 function save(){
     dogName = document.getElementById("dog").value
@@ -12,8 +13,15 @@ function remove(){
 }
 
 function log(){
-    let logDog = localStorage.getItem('myDog');
+    logDog = localStorage.getItem('myDog');
     heading.innerText = logDog;
     
     console.log(localStorage)
 }
+
+window.addEventListener('load', (e) => {
+    // logDog = localStorage.getItem('myDog');
+    heading.innerText = logDog;
+    console.log("loading heading from localStorage")
+})
+
