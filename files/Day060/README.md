@@ -7,3 +7,6 @@
 - [form]()
 - [fieldset]()
 - [legend]()
+- [input]()
+- [label]()
+- [required]()
