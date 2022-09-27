@@ -18,8 +18,8 @@ MyFile.close();
 // set string
 string MyString;
 
-// store file data in string
-ifstream MyReadFile("filename.txt");
+// read from the text file
+ifstream MyFile("filename.txt");
 
 // read file using getline() function to read file line by line
 while (getline (MyFile, MyString)) 
