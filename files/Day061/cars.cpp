@@ -2,8 +2,22 @@
 #include <fstream> // file library: create, write, & read
 using namespace std;
 
-int main(){
 // Objective: Creating random records
+int main(){
 
-    return 0;
+// Create & open a text file
+ofstream MyFile("filename.txt");
+
+// Write to the file
+MyFile << "Hello, World!";
+
+// Close the file
+MyFile.close();
+
+// set string
+string myString;
+
+// store file data in string
+ifstream MyReadFile("filename.txt");
+
 }
