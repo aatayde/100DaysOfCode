@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream> // file library: create, write, & read
 #include <string>
+// #include <string.h>
 using namespace std;
 
 // Objective: Creating random records
@@ -22,11 +23,11 @@ string MyString;
 ifstream MyFile("filename.txt");
 
 // read file using getline() function to read file line by line
-while (getline (MyFile, MyString)) 
-{
-    // output the text from the file
+while (getline (MyFile, MyString)) {
+    // Output the text from the file
     cout << MyString;
-}
+  }
+
 // Close File
 MyFile.close();
 
