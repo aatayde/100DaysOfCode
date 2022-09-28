@@ -1,1 +1,20 @@
 body {background-color: coral;}
+
+.grid-stack {
+    /* set content as tall as the browser */
+    min-height: 100vh;
+
+    display: grid;
+
+    /* Center elements */
+    place-items: center;
+    isolation: isolate;
+}
+
+.centered {
+
+}
+
+.object {
+
+}
