@@ -23,13 +23,18 @@ body {background-color: coral;}
     width: 50px;
     height: 50px;
     background-color: lightgreen;
-    animation: scaleUp 2s;
+    animation: scaleUp 2s ease;
 }
 
 @keyframes scaleUp {
     0% {
         scale: 1;
     }
+
+    15% {
+        scale: .85;
+    }
+
     100% {
         scale: 20;
     }
