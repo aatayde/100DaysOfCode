@@ -30,23 +30,9 @@ body {background-color: coral;}
 
 
 @keyframes scaleUp {
-    0% {
-        scale: 1;
-        
-    }
-
-    15% {
-        scale: .85;
-    }
-
-    65% {
-        opacity: 1;
-    }
-
-    100% {
-        scale: 20;
-        opacity: 0;
-    }
+    0% { scale: 1; }
+    10% { scale: .85; }
+    100% { scale: 20; }
 }
 
 @keyframes fadeOut {
