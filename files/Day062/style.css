@@ -23,8 +23,9 @@ body {background-color: coral;}
 
     width: 50px;
     height: 50px;
-    background-color: lightgreen;
-    animation: scaleUp 2s ease;
+    background-color: #fff;
+    animation: scaleUp 2s ease,
+    fadeOut 2s ease;
     
 }
 
@@ -35,13 +36,3 @@ body {background-color: coral;}
     100% { scale: 20; }
 }
 
-@keyframes fadeOut {
-    0%{
-        /* opacity: 1; */
-       
-    }
-    100%{
-        /* opacity: 0; */
-        
-    }
-}

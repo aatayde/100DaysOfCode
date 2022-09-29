@@ -10,9 +10,10 @@
 - as object is scaling up to ~65% make the inside fully opaic
 
 ### stages of transition
+
 Object Scales down once & up 10 times, color opacity 
 1. load page
-2. scale object down for bounce effect, this is the start of the animation
+2. scale object down for bounce effect
 3. scale object up 3 times
 4. scale object up & object color fade 3 times
 5. scale object up & color fade (reached desired color) (display UI)
