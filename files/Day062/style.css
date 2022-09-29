@@ -4,6 +4,7 @@ body {background-color: coral;}
 .grid-stack {
     /* set content as tall as the browser */
     min-height: 100vh;
+    width: 100%;
 
     display: grid;
 
@@ -24,18 +25,37 @@ body {background-color: coral;}
     height: 50px;
     background-color: lightgreen;
     animation: scaleUp 2s ease;
+    
 }
+
 
 @keyframes scaleUp {
     0% {
         scale: 1;
+        
     }
 
     15% {
         scale: .85;
     }
 
+    65% {
+        opacity: 1;
+    }
+
     100% {
         scale: 20;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0%{
+        /* opacity: 1; */
+       
+    }
+    100%{
+        /* opacity: 0; */
+        
     }
 }
