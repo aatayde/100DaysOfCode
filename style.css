@@ -17,6 +17,10 @@
 /* Remove Anchor tag color */
 a { text-decoration: none; }
 
+body {
+    padding-bottom: 4rem;
+}
+
 .title {
     text-align: center;
     padding: 2rem 0;
