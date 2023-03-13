@@ -1,0 +1,25 @@
+body {
+    padding-bottom: 0;
+}
+/* Create Grid */
+.stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+/* Add all children into same container */
+
+
+/* target image & move behind everything */
+
+
+.image {
+    border: 0.5rem solid #fff;
+    /* grid-template-columns:1fr; */
+}
+
+.title {
+    
+}

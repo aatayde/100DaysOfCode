@@ -288,3 +288,7 @@ JS
 ## [Day 66](./files/Day066/README.md)
     
     CSS Gridy
+
+## [Day 67](./files/Day067/README.md)
+    
+    CSS Splash Page
