@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>Change Font</title>
+    <style>
+        .title {
+            font-size: 5rem;
+        }
+
+        .ubuntu {
+            font-family: 'Ubuntu' !important;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title" onclick="changeFont()">Click Me!!</h1>
+</body>
+</html>
+
+<script>
+    
+    
+    function changeFont(){
+        
+        let title = document.querySelector('.title')
+        let previousFont = window.getComputedStyle(title).getPropertyValue('font-family');
+        console.log("previousFont:", previousFont)
+        // apply new font to page
+        title.classList.toggle('ubuntu')
+    }
+</script>
+
