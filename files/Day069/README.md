@@ -1,5 +1,5 @@
 # Day 69
 
-## Unit Conversion
+## Temperature Conversion
 
-    On click convert F to C
+    On click convert F° to C°
