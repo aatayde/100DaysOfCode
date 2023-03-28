@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title" onclick="convertTemperature()"><spen id="temp">69</spen>°<span id="symbol">F</span></h1>
+
+    <script>
+        function convertTemperature(){
+            let temp = document.getElementById('temp').innerText;
+            let symbol = document.getElementById('symbol')
+            console.log("Temp: ", temp)
+            // Declare functions
+            function convertToCelcius(temp){
+                console.log("convert to Celcius")
+                let celcius = ((temp - 32) * (5/9) );
+                console.log(celcius)
+                document.getElementById('temp').innerText = celcius.toFixed(2);
+                symbol.innerText = 'C'
+            }
+            function convertToFarenheit(temp){
+                console.log("Convert to Farenheit")
+                let farenheit = ((temp * (9/5)) + 32);
+                console.log(farenheit)
+                document.getElementById('temp').innerText = farenheit.toFixed(0);
+                symbol.innerText = 'F'
+            }
+
+            // check for current temperature unit
+            if (symbol.innerText == 'F'){
+                convertToCelcius(temp)
+                
+            } else {
+                convertToFarenheit(temp)
+                
+            }
+            
+        }
+    </script>
+</body>
+</html>
