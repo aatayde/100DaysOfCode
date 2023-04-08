@@ -296,3 +296,7 @@ JS
 ## [Day 69](./files/Day069/README.md)
     
     Temperature Conversion
+
+## [Day 70](./files/Day070/README.md)
+    
+    CSS Grandient Text
