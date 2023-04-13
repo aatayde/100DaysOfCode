@@ -300,3 +300,7 @@ JS
 ## [Day 70](./files/Day070/README.md)
     
     CSS Grandient Text
+
+## [Day 71](./files/Day071/README.md)
+    
+    CSS Animated Glowing Grandient Border
