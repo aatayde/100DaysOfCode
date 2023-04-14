@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <title>Animated Glowing Grandient Border</title>
+
+    <style>
+        @property --gradient-angle {
+            syntax: "<angle>";
+                initial-value: 0deg;
+                inherits: false;
+        }
+
+        :root {
+            --color-1: #FF6D60;
+            --color-2: #F7D060;
+            --color-3: #F3E99F;
+            --color-4: #98D8AA;
+            --color-5: #19376D ;
+        }
+
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+            background: var(--color-1);
+        }
+        
+        .card {
+            height: 60vh;
+            aspect-ratio: 1 / 1.5;
+            background: var(--color-2);
+            border-radius: 0.5rem;
+
+            position: relative;
+        }
+
+        .card::before,
+        .card::after {
+            content: "";
+            position: absolute;
+            inset: -0.5rem;
+            z-index: -1;
+            background: conic-gradient(
+                from var( --gradient-angle),
+                var(--color-2),
+                var(--color-3),
+                var(--color-4),
+                var(--color-5),
+                var(--color-4),
+                var(--color-3),
+                var(--color-2));
+
+            animation: rotation 20s linear infinite;
+            border-radius: inherit;
+        }
+
+        .card::after {
+            filter: blur(3.5rem);
+        }
+
+        @keyframes rotation {
+            0% { --gradient-angle: 0deg; }
+            100% { --gradient-angle: 360deg; }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="title"></h1>
+    <div class="card"></div>
+</body>
+</html>
