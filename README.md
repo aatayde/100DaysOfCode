@@ -304,3 +304,7 @@ JS
 ## [Day 71](./files/Day071/README.md)
     
     CSS Animated Glowing Grandient Border
+
+## [Day 72](./files/Day072/README.md)
+
+    JavaScript To-Do List
