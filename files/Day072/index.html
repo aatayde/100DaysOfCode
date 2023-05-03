@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <title>JavaScript ToDo List</title>
+</head>
+<body>
+    <h1 class="title">ToDo List</h1>
+    <input type="text" id="input">
+    <button onClick="addItem()">+</button>
+
+<ul class="list">
+    
+</ul>
+
+
+<script>
+
+
+    function addItem(){
+        // Create item
+        newItem = document.createElement('p');
+        
+        // Get Text
+        item = document.createTextNode(document.getElementById('input').value);
+
+        // Add Text to newly created item
+        newItem.appendChild(item);
+
+        list = document.querySelector('.list');
+
+        // Add new item & content into the DOM
+        document.body.insertBefore(newItem, list);
+
+        clearText()
+    }
+
+    function clearText(){
+        document.getElementById('input').value = '';
+    }
+   
+</script>
+</body>
+</html>
