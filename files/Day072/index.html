@@ -21,16 +21,23 @@
         // Create item
         newItem = document.createElement('li');
         
-        // Get Text
-        item = document.createTextNode(document.getElementById('input').value);
+        // Add Class to item 
+        newItem.className = "item";
+        
+        // Add Text to item
+        newItem.textContent = document.getElementById('input').value;
+        
+        // Add a click event listener to the new list item
+        newItem.addEventListener("click", function() {
+        // Toggle the 'crossThrough' class on the clicked item
+        this.classList.toggle("crossThrough");
+        });
 
-        // Add Text to newly created item
-        newItem.appendChild(item);
-
+        // Add item to list
         list = document.querySelector('.list');
+        list.appendChild(newItem)
 
-        // Add new item & content into the DOM
-        document.body.insertBefore(newItem, list);
+
 
         clearText()
     }
@@ -44,6 +51,9 @@
             addItem();
         }
     })
+
+    // On click, toggle crossThrough class
+    // document.querySelector('.list').children
    
 </script>
 </body>
