@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css" type="text/css">
+    <title>CSS Animations</title>
+
+    <style>
+
+        .container {
+            display: grid;
+            place-items: center;
+        }
+
+        .box{
+            width: 5rem;
+            height: 5rem;
+            background-color: orangered;
+            transition: all .7s ease-in-out;
+        }
+        .scale{
+            animation: scale-up-down 1s ease-in-out infinite ;
+        }
+
+        .rotate{
+            animation: go-round 1.3s ease-in-out infinite
+        }
+
+        .fade {
+            animation: fade 2s ease-in-out infinite;
+        }
+        .move-around {
+            animation: move-around 4s ease-in-out infinite;
+        }
+
+        .options {
+            padding-top: 2rem;
+        }
+
+        .btn {
+            padding: .5rem;
+            border-radius: .5rem;
+            background-color: #333;
+            color: #e3e3e3;
+            border: none;
+        }
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        @keyframes scale-up-down {
+            0% {transform: scale(1);}
+            15% {transform: scale(.3);}
+            75% {transform: scale(1.3);}
+        }
+
+        @keyframes go-round {
+            0% {rotate: 0deg;}
+            /* 25% {rotate: 90deg;}
+            50% {rotate: 180deg;}
+            75% {rotate: 270deg;} */
+            100% {rotate: 360deg;}
+            
+        }
+
+        @keyframes fade {
+            0% {opacity: 1;}
+            30% {opacity: 0.7;}
+            50% {opacity: 0.1;}
+        }
+
+        @keyframes move-around {
+          
+            20% {transform: translateX(-1rem);}
+            40% {transform: translateY(1rem);}
+            80% {transform: translateX(1rem);}
+            60% {transform: translateY(-1rem);}
+        }
+
+    </style>
+    <!-- ------------------------------------------------ -->
+</head>
+<body>
+    <h1 class="title">CSS Animations</h1>
+    <div class="container">
+
+        <div class="box"></div>
+    </div>
+    <div class="options">
+       <button id="scale" class="btn">Scale</button>
+       <button id="rotate" class="btn">Rotate</button>
+       <button id="fade" class="btn">Fade in/out</button>
+       <button id="move-around" class="btn">Move Around</button>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+
+    <script>
+        
+       const scale = document.getElementById('scale')
+       scale.addEventListener('click', function(){
+        document.querySelector('.box').classList.toggle('scale')
+       })
+
+       const rotate = document.getElementById('rotate');
+       rotate.addEventListener('click', function(){
+        document.querySelector('.box').classList.toggle('rotate')
+       })
+
+       const fade = document.getElementById('fade');
+       fade.addEventListener('click', function(){
+        document.querySelector('.box').classList.toggle('fade')
+       })
+
+       const moveAround = document.getElementById('move-around');
+       moveAround.addEventListener('click', function(){
+        document.querySelector('.box').classList.toggle('move-around')
+       })
+        
+    </script>
+</body>
+</html>
