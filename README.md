@@ -308,3 +308,11 @@ JS
 ## [Day 72](./files/Day072/README.md)
 
     JavaScript To-Do List
+
+## [Day 73](./files/Day073/README.md)
+
+    JavaScript To-Do List
+
+## [Day 74](./files/Day074/README.md)
+
+    Pokemon API
