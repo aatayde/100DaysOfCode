@@ -6,11 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon API</title>
     <link rel="stylesheet" href="../../style.css" type="text/css">
+    <style>
+        :root {
+            --Normal: #A8A878; 	
+            --Normal-dark: #6D6D4E;
+            --Fire: 	#F08030; 	
+            --Fire-dark: #9C531F;
+            --Water: 	#6890F0; 	
+            --Water-dark: #445E9C;
+            --Electric: 	#F8D030; 	
+            --Electric-dark: #A1871F;
+            --Grass: 	#78C850; 	
+            --Grass-dark: #4E8234;
+            --Ice: 	#98D8D8; 	
+            --Ice-dark: #638D8D;
+            --Fighting: 	#C03028; 	
+            --Fighting-dark: #7D1F1A;
+            --Poison: 	#A040A0; 	
+            --Poison-dark: #682A68;
+            --Ground: 	#E0C068; 	
+            --Ground-dark: #927D44;
+            --Flying: 	#A890F0; 	
+            --Flying-dark: #6D5E9C;
+            --Psychic: 	#F85888; 	
+            --Psychic-dark: #A13959;
+            --Bug: 	#A8B820; 	
+            --Bug-dark: #6D7815;
+            --Rock: 	#B8A038; 	
+            --Rock-dark: #786824;
+            --Ghost: 	#705898; 	
+            --Ghost-dark: #493963;
+            --Dragon: 	#7038F8; 	
+            --Dragon-dark: #4924A1;
+            --Dark: 	#705848; 	
+            --Dark-dark: #49392F;
+            --Steel: 	#B8B8D0; 	
+            --Steel-dark: #787887;
+            --Fairy: 	#EE99AC; 	
+            --Fairy-dark: #9B6470;
+        }
+        .container{
+            text-align: center;
+            display: grid;
+            place-items: center;
+        }
+
+        .pokemon-name, p{
+            text-transform: capitalize;
+        }
+
+        .type p {
+            width: 5rem;
+            display: inline-block;
+            padding: .5rem;
+            border-radius: 32px;
+           /* border: solid 1rem; */
+        }
+
+        img {border-radius: 1rem;}
+
+        .type-1{
+            background-color: var(--Fire);
+            border: solid var(--Fire-dark);
+        }
+
+        .type-2 {
+            background-color: var(--Flying);
+            border: solid var(--Flying-dark);
+        }
+
+    </style>
 </head>
 <body>
     <h1 class="title">Pokémon API</h1>
     <div class="container">
-        <img src="" alt="picture of a pokemon">
+        <h2 id="pokemon-name" class="pokemon-name">charizard</h2>
+        <article class="type">
+            <p class="type-1">fire</p>
+            <p class="type-2">flying</p>
+        </article>
+        <img src="https://img.pokemondb.net/artwork/avif/charizard.avif" alt="picture of a pokemon">
         
     </div>
 </body>
