@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="../../style.css" type="text/css">
     <style>
         :root {
+            --abyss-black: #121212;
+            --soft-black: #333;
+            --white: #fff;
+            --soft-white: #e3e3e3;
+
+            /* Pokemon colors */
             --Normal: #A8A878; 	
             --Normal-dark: #6D6D4E;
             --Fire: 	#F08030; 	
@@ -51,6 +57,13 @@
             place-items: center;
         }
 
+        .search-bar {
+            border: none;
+            padding: .5rem;
+            border-radius: 20px;
+            text-align: center;
+        }
+
         .pokemon-name, p{
             text-transform: capitalize;
         }
@@ -75,18 +88,73 @@
             border: solid var(--Flying-dark);
         }
 
+        @media (prefers-color-scheme: dark) {
+        .search-bar { background-color: var(--soft-black); color: var(--soft-white)}
+        }
+
+        @media (prefers-color-scheme: light) {
+        .search-bar { background-color: var(--white); color: var(--abyss-black)}
+    }
+
+
     </style>
 </head>
 <body>
     <h1 class="title">Pokémon API</h1>
     <div class="container">
+        <div class="search">
+
+           <label for="search-bar"><input type="text" name="search-bar" class="search-bar" placeholder="Enter Pokémon Name"></label>
+           
+        </div>
         <h2 id="pokemon-name" class="pokemon-name">charizard</h2>
         <article class="type">
             <p class="type-1">fire</p>
             <p class="type-2">flying</p>
         </article>
-        <img src="https://img.pokemondb.net/artwork/avif/charizard.avif" alt="picture of a pokemon">
+        <img id="image" src="https://img.pokemondb.net/artwork/avif/charizard.avif" alt="picture of a pokemon">
         
     </div>
+
+    <script>
+        // Fetch Data
+        async function fetchPokemon(pokemon) {
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+        const pokeData = await response.json();
+        console.log(pokeData);
+        }
+
+        // Event listener for enter button
+        document.querySelector('.search-bar').addEventListener("keydown", function(event){
+            if (event.key=="Enter"){
+                search();
+                clearSearchText();
+            }
+        })
+
+        // Search for Pokemon
+        function search(){
+            const searched = document.querySelector('.search-bar').value
+            fetchPokemon(searched)
+            updatePicture(searched)
+            updateTitle(searched)
+            clearSearchText()
+        }
+
+        // update title
+        function updateTitle(pokemon){
+            document.getElementById("pokemon-name").innerText = pokemon
+        }
+
+        // update picture
+        function updatePicture(pokemon){
+            document.getElementById('image').src = `https://img.pokemondb.net/artwork/avif/${pokemon}.avif`
+        }
+
+        // Clear search bar text
+        function clearSearchText(){
+            document.querySelector('.search-bar').value = '';   
+        }
+    </script>
 </body>
 </html>
