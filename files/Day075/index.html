@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Shop</title>
+    <!-- <link rel="stylesheet" href="../../style.css" type="text/css"> -->
+    <style>
+        *,
+        *::after,
+        *::before {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .card {
+            min-height: 100vh;
+            place-items: center;
+            width: 100%;
+            background-image: url("https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60");
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .card,
+        .company-info,
+        .action, 
+        .discount,
+        .item,
+        .form {
+            display: grid;
+        }
+
+        .icon {
+            margin: auto;
+        }
+
+        .company-name {
+            font-size: 4em;
+        }
+
+        .card,
+        .company-info,
+        .action, 
+        .discount,
+        .item {
+            color: #e3e3e3;
+        }
+
+
+        .icon,
+        .action,
+        .item
+         {
+            font-size: 2.5em;
+        }
+
+        .discount {
+            font-size: 3.5em;
+        }
+
+        .form {
+            gap: 1rem;
+        }
+
+        .btn,
+        .input {
+            text-align: center;
+            /* border-radius: 1rem; */
+            border: none;
+            border-radius: 48px;
+            height: 3rem;
+            width: 100%;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="company-info">
+            <svg class="icon" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M15 5h-3v-1.5c0-1.381-2.686-2.5-6-2.5s-6 1.119-6 2.5v10c0 1.381 2.686 2.5 6 2.5s6-1.119 6-2.5v-1.5h3c0.552 0 1-0.448 1-1v-5c0-0.552-0.448-1-1-1zM2.751 4.037c-0.578-0.19-0.928-0.394-1.116-0.537 0.188-0.143 0.538-0.347 1.116-0.537 0.905-0.298 2.059-0.463 3.249-0.463s2.344 0.164 3.249 0.463c0.578 0.19 0.928 0.394 1.116 0.537-0.188 0.143-0.538 0.347-1.116 0.537-0.905 0.298-2.059 0.463-3.249 0.463s-2.344-0.164-3.249-0.463zM14 10h-2v-3h2v3z"></path></svg>
+            <span class="company-name">ParTea</span>
+        </div>
+        <div class="promotion">
+            <span class="action">Unlock</span>
+            <span class="discount">80% off</span>
+            <span class="item">Herbal Tea</span>
+        </div>
+        <div class="form">
+            <input class="input" type="email" placeholder="Enter Email Address">
+            <button class="btn">Continue</button>
+        </div>
+    </div>
+</body>
+</html>

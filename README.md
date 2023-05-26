@@ -316,3 +316,7 @@ JS
 ## [Day 74](./files/Day074/README.md)
 
     Pokemon API
+
+## [Day 75](./files/Day075/README.md)
+
+    CSS Tea Shop Promotion
