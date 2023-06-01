@@ -320,3 +320,7 @@ JS
 ## [Day 75](./files/Day075/README.md)
 
     CSS Tea Shop Promotion
+
+## [Day 76](./files/Day076/README.md)
+
+    
