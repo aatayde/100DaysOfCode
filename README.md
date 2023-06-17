@@ -327,4 +327,8 @@ JS
 
 ## [Day 77](./files/Day077/README.md)
 
-    something good is coming
+    CSS Sliding Text Animation
+
+## [Day 78](./files/Day078/README.md)
+
+    CSS Progress Bar
