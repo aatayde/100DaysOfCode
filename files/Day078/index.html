@@ -23,9 +23,30 @@
     </style>
 </head>
 <body>
-    <h1 class="title">CSS Progress Bar</h1>
+    <h1 class="title"></h1>
     <div class="progress-bar">
-        <div class="progress">69%</div>
+        <div class="progress"> </div>
     </div>
 </body>
+<script>
+   
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+
+    const yearStart = new Date(currentYear, 0, 1); // January 1st of the current year
+    const yearEnd = new Date(currentYear + 1, 0, 1); // January 1st of the next year
+
+    const totalDaysInYear = (yearEnd - yearStart) / (1000 * 60 * 60 * 24);
+
+    const currentDayOfYear = Math.floor((currentDate - yearStart) / (1000 * 60 * 60 * 24)) + 1;
+
+    const percentage = Math.round((currentDayOfYear / totalDaysInYear) * 100);
+
+    console.log(percentage);
+
+    document.querySelector('.title').innerText = `${currentYear} Progress Bar`
+    document.querySelector('.progress').innerText = `${percentage} %`
+
+console.log(result);   
+</script>
 </html>
