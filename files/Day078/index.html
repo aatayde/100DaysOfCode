@@ -17,7 +17,7 @@
         }
         .progress {
             border-radius: inherit;
-            width: 69%;
+            /* width: 69%; */
             background-color: teal;
         }
     </style>
@@ -44,7 +44,8 @@
 
     console.log(percentage);
 
-    document.querySelector('.title').innerText = `${currentYear} Progress Bar`
-    document.querySelector('.progress').innerText = `${percentage} %`
+    document.querySelector('.title').innerText = `${currentYear} Progress Bar`;
+    document.querySelector('.progress').innerText = `${percentage} %`;
+    document.querySelector('.progress').style.width = `${percentage}%`;
 </script>
 </html>
