@@ -123,3 +123,13 @@ ip addresses added to text file named ips.txt
 lets check out work by reading the addresses in ips.txt
 
     cat ips.txt
+
+Bonus!!
+
+lets run nmap for all the addresses listed in ips.txt
+
+    nmap $(cat ips.txt)
+
+Great! this works, but lets run through the list of ip addresses
+
+    for ip in $(cat ips.txt); do nmap $ip; done
