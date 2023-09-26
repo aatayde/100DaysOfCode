@@ -41,10 +41,28 @@ list all open ports
 #### Findings
 ping continuously sends packages to a device. only one ping is neccessary.
 
+    ping 192.168.0.1
+
 man ping is the manuel for ping command. -c is the option for count.
 ping + ip address + -c 1 only pings the ip address once.
+
+    ping 192.168.0.1 -c 1
 
 
 the grep command returns lines tha tmatch patterns. returning the first line with the ip address, in thise case "64 bytes is the first phrase in the line". 
 
+    ping 192.168.0.1 -c 1 | grep "64 bytes"
+
 Now I need to grab the 4th word of the line. quick search returned the command cut, removes sections from each line of files. cut by itself does not work, must specify a list of bytes, characters or fields. in this case, I would like to use white spaces to separate each word. cut + delimiter option + white space + field number returns the ip address.
+
+    ping 192.168.0.1 -c 1 | grep "64 bytes" | -d " " -f 4
+
+the only missing part is the colon.
+quick google search returned tr command.
+tr command translates or deletes characters to delete the colon from the ip address, using the translate + delete + colon
+
+    ping 192.168.0.1 -c 1 | grep "64 bytes" | cut -d " " -f 4 | tr -d ":"
+
+> Haha, Yes!
+
+now that I have a the complete command, lets create a script.
