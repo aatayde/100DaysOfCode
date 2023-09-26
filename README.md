@@ -332,3 +332,7 @@ JS
 ## [Day 78](./files/Day078/README.md)
 
     CSS Progress Bar
+
+## [Day 79](./files/Day079/README.md)
+
+    Bash scripting | IP Sweeper
