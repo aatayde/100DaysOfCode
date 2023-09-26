@@ -44,12 +44,12 @@ ping continuously sends packages to a device. only one ping is neccessary.
     ping 192.168.0.1
 
 man ping is the manuel for ping command. -c is the option for count.
-ping + ip address + -c 1 only pings the ip address once.
+ping + ip address + count + 1 only pings the ip address once.
 
     ping 192.168.0.1 -c 1
 
 
-the grep command returns lines tha tmatch patterns. returning the first line with the ip address, in thise case "64 bytes is the first phrase in the line". 
+the grep command returns lines that match patterns. returning the first line with the ip address, in thise case "64 bytes is the first phrase in the line". 
 
     ping 192.168.0.1 -c 1 | grep "64 bytes"
 
@@ -82,7 +82,8 @@ lets make the ip address a variable.
 
 this doesn't work...
 
-destination address required. 
+> destination address required.
+
 translation: variable for ip address is not defined.
 lets create a loop that goes from 1-254 to find all addresses in a network. searching for a loop. the for loop with a sequence of 1-254 will work.
 
@@ -96,3 +97,19 @@ search how to work run without waiting for response. found a stack [overflow](ht
 success! we are getting closer.
 this printed the devices on the our network.
 
+Lets remove some hard coding so we can run on a desired ip address.
+replacing hard coded ip address with an argument.
+
+now run script with the argument
+
+    ./script 192.168.0
+
+Nice! Now lets catch any syntax errors when entering an IP address.
+lets catch errors with an if statement. if argument is equal to nothing, echo the expected syntax.
+
+    if [ "$1" == ""]
+    then
+    echo "error"
+
+    else
+    code runs here!!!
