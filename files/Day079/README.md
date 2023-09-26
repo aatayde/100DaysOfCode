@@ -66,3 +66,14 @@ tr command translates or deletes characters to delete the colon from the ip addr
 > Haha, Yes!
 
 now that I have a the complete command, lets create a script.
+
+ipsweep.sh is the script we are going to run. 
+to run this scricp, change the permissions to execute it.
+use the chmod + executable to start running the script.
+
+    chmod +x ipsweep.sh
+
+now the script is executable
+
+this is great, but it only runs the hard coded ip address.
+lets make the ip address a variable.
