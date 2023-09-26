@@ -113,3 +113,13 @@ lets catch errors with an if statement. if argument is equal to nothing, echo th
 
     else
     code runs here!!!
+
+this is great, now lets write the ip addresses in a text file.
+
+    ./ipsweep.sh 192.168.0 > ips.txt
+
+ip addresses added to text file named ips.txt
+
+lets check out work by reading the addresses in ips.txt
+
+    cat ips.txt
