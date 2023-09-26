@@ -8,11 +8,11 @@ this code is written in bash
 
 the script runs in linux
 
-### learn with me
+## learn with me
 
 please feel free to share this code, I put it together from youtube videos & google searches
 
-####  Dependencies
+##  Dependencies
 
 on Linux install the following packages:
 ```
@@ -22,23 +22,23 @@ sudo apt install net-tools
 sudo apt install nmap
 ```
 
-#### commands used
-- cmmod +x
+### commands used
+- cmmod
 - ifconfig
 - ping
 - grep
 - cut
 
-#### Objective
+### Objective
 
 ping all devices on a network
 
-#### Bonus 
+### Bonus 
 
 list all open ports
 
 
-#### Findings
+### Findings
 ping continuously sends packages to a device. only one ping is neccessary.
 
     ping 192.168.0.1
@@ -65,7 +65,7 @@ tr command translates or deletes characters to delete the colon from the ip addr
 
 > Haha, Yes!
 
-now that I have a the complete command, lets create a script.
+now that we have a the complete command, lets create a script.
 
 ipsweep.sh is the script we are going to run. 
 to run this scricp, change the permissions to execute it.
@@ -77,3 +77,14 @@ now the script is executable
 
 this is great, but it only runs the hard coded ip address.
 lets make the ip address a variable.
+
+    ping $ip -c 1 | grep "64 bytes" | cut -d " " -f 4 | tr -d ":"
+
+this doesn't work...
+
+destination address required. 
+translation: variable for ip address is not defined.
+lets create a loop that goes from 1-254 to find all addresses in a network. searching for a loop. the for loop with a sequence of 1-254 will work.
+
+    for ip in `seq 1 254` ; do
+
