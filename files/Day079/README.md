@@ -88,3 +88,11 @@ lets create a loop that goes from 1-254 to find all addresses in a network. sear
 
     for ip in `seq 1 254` ; do
 
+this get stuck searching for the ip address that doesn't respond.
+search how to work run without waiting for response. found a stack [overflow](https://stackoverflow.com/questions/67466985/how-to-loop-run-an-executable-multiple-time-without-waiting-for-it-to-finish) on how to launch a process without waiting for it to end. enter an & at the end of the ping command.
+
+> Haha, Yes!
+
+success! we are getting closer.
+this printed the devices on the our network.
+
