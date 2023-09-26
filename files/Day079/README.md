@@ -27,3 +27,15 @@ sudo apt install nmap
 - ifconfig
 - ping
 - ping -c 1
+
+#### Objective
+
+ping all devices on a network
+
+#### Bonus 
+
+list all open ports
+
+
+#### Findings
+ping continuously sends packages to a device. only one ping is neccessary.
