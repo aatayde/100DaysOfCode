@@ -8,13 +8,11 @@ HTML Only
 
     image with inline style
 
-    
 ## [Day 2](./files/Day002/README.md)
 
 HTML & CSS
 
     animations, keyframes, imported fonts, linear gradients, background image url path
-
 
 ## [Day 3](./files/Day003/README.md)
 
@@ -28,7 +26,7 @@ JS
 
     onClick run function to get current time
 
-## [Day 5](./files/Day005/README.md) 
+## [Day 5](./files/Day005/README.md)
 
 JS
 
@@ -49,13 +47,13 @@ JS
 
     Relitive Change Calculator
 
-## [Day 7](./files/Day007/README.md) 
+## [Day 7](./files/Day007/README.md)
 
     Average acceleration calculator
 
 ## [Day 8](./files/Day008/README.md)
 
-    Light & Dark Mode 
+    Light & Dark Mode
 
 ## [Day 9](./files/Day009/README.md)
 
@@ -77,7 +75,7 @@ JS
 
     Sum of Values in Array
 
-## [Day 14](./files/Day014/README.md) 
+## [Day 14](./files/Day014/README.md)
 
     SVG icons
 
@@ -93,7 +91,7 @@ JS
 
     MORE CSS GRID LAYOUT!!!
 
-## [Day 18](./files/Day018/README.md) 
+## [Day 18](./files/Day018/README.md)
 
     JavaScript Cowndown Timer
 
@@ -105,7 +103,7 @@ JS
 
     Updates to Day 8, 11, 12, & 13
 
-## [Day 21](./files/Day021/README.md) 
+## [Day 21](./files/Day021/README.md)
 
     Presentation Page
 
@@ -120,26 +118,26 @@ JS
 ## [Day 24](./files/Day024/README.md)
 
     Weather API
-    
+
 ## [Day 25](./files/Day025/README.md)
 
-    JavaScript Create Element 
+    JavaScript Create Element
 
-## [Day 26](./files/Day026/README.md) 
+## [Day 26](./files/Day026/README.md)
 
     Advanced CSS Menu animation
 
 ## [Day 27](./files/Day027/README.md)
 
-    Advanced CSS Navigation Menu 
+    Advanced CSS Navigation Menu
 
 ## [Day 28](./files/Day028/README.md)
 
-    Bootstrap Navabr 
+    Bootstrap Navabr
 
 ## [Day 29](./files/Day029/README.md)
 
-    Bootstrap Carousel 
+    Bootstrap Carousel
 
 ## [Day 30](./files/Day030/README.md)
 
@@ -164,14 +162,14 @@ JS
 ## [Day 35](./files/Day035/README.md)
 
     Product Page for APY Calculator
-    
+
 ## [Day 36](./files/Day036/README.md)
 
     CSS Neon Text
 
 ## [Day 37](./files/Day037/README.md)
 
-   CSS Color Rotate
+CSS Color Rotate
 
 ## [Day 38](./files/Day038/README.md)
 
@@ -188,7 +186,7 @@ JS
 ## [Day 41](./files/Day041/README.md)
 
     Node Server Error handling
-    
+
 ## [Day 42](./files/Day042/README.md)
 
     Node log object
@@ -204,7 +202,7 @@ JS
 ## [Day 45](./files/Day045/README.md)
 
     HTTP Cookies
-    
+
 ## [Day 46](./files/Day046/README.md)
 
     My first PHP file
@@ -252,57 +250,57 @@ JS
 ## [Day 57](./files/Day057/README.md)
 
     JavaScript Random Number Generator
-    
+
 ## [Day 58](./files/Day058/README.md)
 
     JavaScript KWh Charging Calculator
-    
+
 ## [Day 59](./files/Day059/README.md)
 
     JavaScript save / clear local storage & onload event listener
-    
+
 ## [Day 60](./files/Day060/README.md)
 
     My frist HTML Form
-    
+
 ## [Day 61](./files/Day061/README.md)
 
     C++ Read data from text file
-    
+
 ## [Day 62](./files/Day062/README.md)
 
     CSS Animaiton jump into page
-    
+
 ## [Day 63](./files/Day063/README.md)
 
     My first TypeScript file
-    
+
 ## [Day 64](./files/Day064/README.md)
 
     PHP fundamentals
 
 ## [Day 65](./files/Day065/README.md)
-    
+
     CSS Rotate Animation on hover
 
 ## [Day 66](./files/Day066/README.md)
-    
+
     CSS Gridy
 
 ## [Day 68](./files/Day068/README.md)
-    
+
     Change Font
 
 ## [Day 69](./files/Day069/README.md)
-    
+
     Temperature Conversion
 
 ## [Day 70](./files/Day070/README.md)
-    
+
     CSS Grandient Text
 
 ## [Day 71](./files/Day071/README.md)
-    
+
     CSS Animated Glowing Grandient Border
 
 ## [Day 72](./files/Day072/README.md)
@@ -336,3 +334,7 @@ JS
 ## [Day 79](./files/Day079/README.md)
 
     Bash scripting | IP Sweeper
+
+## [Day 80](./files/Day080/README.md)
+
+    CSS Animate on Scroll
