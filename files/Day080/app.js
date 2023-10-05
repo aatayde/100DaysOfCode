@@ -11,9 +11,11 @@ let observer = new IntersectionObserver((entries) => {
     console.log(entry); // log entires
     // declare if entry is intersecting
     if (entry.isIntersecting) {
-      console.log("animate element");
+      // add show class
+      entry.target.classList.add("show");
     } else {
-      console.log("hide element");
+      // remove show class
+      entry.target.classList.remove("show");
     }
     // Currently not observing
   });
