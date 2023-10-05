@@ -10,5 +10,10 @@ let observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry); // log entires
     // declare if entry is intersecting
+    if (entry.isIntersecting) {
+      console.log("animate element");
+    } else {
+      console.log("hide element");
+    }
   });
 });
