@@ -7,6 +7,7 @@
 - [intersection observer](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver)
 - [observe method](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/observe)
 - [intersection observer entry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
+- [isIntersecting](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 
 ### Findings
 
