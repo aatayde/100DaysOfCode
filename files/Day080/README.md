@@ -9,6 +9,7 @@
 - [intersection observer entry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 - [isIntersecting](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 - [observe method](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/observe)
+- [prefers reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
 
 ### Findings
 
@@ -20,3 +21,7 @@
 - isIntersecting is a boolean which returns true or false
 - so if isIntersecting do the thing, which is animate, else return to previous state.
 - observe the elements intersecting by observing each element with the hidden class.
+- toggling show class for visibility of elements
+- add fade like animation
+- add slide in animation by starting element to the left
+- allow user to not animate slide in transition by setting device settings to reduced motion

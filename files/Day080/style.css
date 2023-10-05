@@ -2,13 +2,23 @@ section {
   min-height: 100vh;
   display: grid;
   place-content: center;
+  align-content: center;
 }
 
 .hidden {
   opacity: 0;
   transition: all 1s;
+  transform: translateX(-100%);
 }
 
 .show {
   opacity: 1;
+  transform: translateX(0);
+}
+
+/* do not slide if reduced motion is set by user */
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
 }
