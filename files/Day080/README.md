@@ -25,3 +25,4 @@
 - add fade like animation
 - add slide in animation by starting element to the left
 - allow user to not animate slide in transition by setting device settings to reduced motion
+- stagger a list inside a div, delay the animation for each child in element list
