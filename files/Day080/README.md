@@ -5,6 +5,7 @@
 ### Resources
 
 - [intersection observer](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver)
+- [observe method](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/observe)
 
 ### Findings
 
