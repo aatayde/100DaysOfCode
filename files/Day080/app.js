@@ -15,5 +15,12 @@ let observer = new IntersectionObserver((entries) => {
     } else {
       console.log("hide element");
     }
+    // Currently not observing
   });
 });
+
+// lets start observing each element in hidden elements
+// observe each hidden element with the observe method
+hiddenElements.forEach((el) => observer.observe(el));
+// Success this works!
+// Each elemet is being observed by the DOM

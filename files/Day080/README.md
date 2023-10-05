@@ -8,6 +8,7 @@
 - [observe method](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/observe)
 - [intersection observer entry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
 - [isIntersecting](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry)
+- [observe method](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/observe)
 
 ### Findings
 
@@ -18,3 +19,4 @@
 - to log intersection of entries, set conditional using isIntersecting
 - isIntersecting is a boolean which returns true or false
 - so if isIntersecting do the thing, which is animate, else return to previous state.
+- observe the elements intersecting by observing each element with the hidden class.
