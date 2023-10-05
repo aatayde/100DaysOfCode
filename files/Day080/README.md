@@ -2,6 +2,10 @@
 
 ## CSS Animate on Scroll
 
-### resources
+### Resources
 
--
+- [intersection observer](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver)
+
+### Findings
+
+- I want to observe the class for each section of the page.
