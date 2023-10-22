@@ -1,0 +1,33 @@
+body {
+  min-width: 100vw;
+}
+
+.container-abs-center {
+  display: grid;
+  align-items: center;
+  place-content: center;
+}
+
+.note {
+  width: 8rem;
+  height: 4rem;
+  background-color: #333;
+  border-radius: 1rem;
+
+  color: #e3e3e3;
+  font-size: 2rem;
+
+  text-align: center;
+}
+
+.btn {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.4rem;
+  border-radius: 50%;
+
+  background: #444;
+
+  /* temporary solution */
+  transform: translate(350%, -50%);
+}
