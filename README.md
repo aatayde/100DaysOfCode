@@ -1,6 +1,6 @@
 # [100 Days Of Code](https://aatayde.github.io/100DaysOfCode/)
 
-### :bird: [Twitter Thread](https://twitter.com/atayde_jr/status/1551747429145317377)
+### ❌ [Thread](https://twitter.com/atayde_jr/status/1551747429145317377)
 
 ## [Day 1](./files/Day001/README.md)
 
