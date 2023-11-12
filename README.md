@@ -338,3 +338,7 @@ CSS Color Rotate
 ## [Day 80](./files/Day080/README.md)
 
     CSS Animate on Scroll
+
+## [Day 82](./files/Day082/README.md)
+
+    JavaScript For loop
