@@ -342,3 +342,7 @@ CSS Color Rotate
 ## [Day 82](./files/Day082/README.md)
 
     JavaScript For loop
+
+## [Day 83](./files/Day083/README.md)
+
+    JavaScript Array Cheat Sheet
