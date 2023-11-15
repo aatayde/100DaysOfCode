@@ -3,22 +3,27 @@
 // Array saved globally will be changed
 const array = [1, 2, 3, 4];
 
+function myArray(value) {
+  console.log("hello from function", value);
+}
+myArray(array);
+
 // log entire array
-console.log(array);
+myArray(array);
 
 // length of array
-console.log("length", array.length);
+myArray(array.length);
 
 // index position
-console.log("index", array[0]);
+myArray(array[0]);
 
 // Push to end of array
-console.log("push", array.push(5));
+myArray(array.push(5));
 
 // shift last item out of array
-console.log("shift", array.shift());
+myArray(array.shift());
 
 // pop last element & return value
-console.log("pop", array.pop());
+myArray(array.pop());
 
-console.log(array);
+myArray(array);
