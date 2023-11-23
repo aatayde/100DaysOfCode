@@ -58,6 +58,10 @@ myArray(array.filter((num) => num % 2));
 [1, 2, 3].every((num) => num > 1);
 myArray(array.every((num) => num > 1));
 
+// tests weather at least one elemet passes the test implemented by the function
+[1, 2, 3].some((num) => num == 3);
+myArray(array.some((num) => num == 3));
+
 // test all values in array returns boolean
-[1, 2, 3].every((num) => num > 1);
-myArray(array.every((num) => num > 1));
+[1, 2, 3].fill(10);
+myArray(array.fill(10));
