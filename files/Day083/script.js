@@ -62,6 +62,6 @@ myArray(array.every((num) => num > 1));
 [1, 2, 3].some((num) => num == 3);
 myArray(array.some((num) => num == 3));
 
-// test all values in array returns boolean
+// change all elements in array to a static value
 [1, 2, 3].fill(10);
 myArray(array.fill(10));
