@@ -1,11 +1,13 @@
 // const array = [1,2,3,4,5]
-const array = [139,135,122,168,100];
+const numbers = [139, 135, 122, 168, 100];
 // Sum values in array using Reduce method
-const initialValue = 0;
-const sumWithInitial = array.reduce(
-    (previousValue, currentValue) => previousValue + currentValue, initialValue
-)
 
-console.log("sum of values: ",sumWithInitial)
+// const initialValue = 0;
+// Initial value can be removed because it can be assigned within the arrow funtion
+const sum = numbers.reduce((accumulator, currentValue) => {
+  console.log(accumulator);
+  return accumulator + currentValue;
+}, 0);
 
-console.log("median value: " + sumWithInitial / array.length)
+console.log("sum of values: ", sum);
+console.log("median value: " + sum / numbers.length);
