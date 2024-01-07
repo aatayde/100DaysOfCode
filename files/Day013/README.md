@@ -4,7 +4,7 @@
 
 using the reduce method to return the sum of values in array
 
-finding the sum of all values devided by the length of the array can provide the median number in an array.
+finding the sum of all values devided by the length of the array can provide the mean of an array.
 
 ### Resources
 
