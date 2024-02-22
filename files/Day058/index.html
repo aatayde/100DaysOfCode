@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link type="text/css" rel="stylesheet" href="../../style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="../../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day 58</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="title">EV Charging Calculator</h1>
     <div class="container">
-        <p>Enter the power rating of the charger & the size of the car's battery to determine time required to charge.</p>
-        <div class="grid">
-            <div class="row">
-                <label for="power">KW</label>
-                <input class="inputs" type="text" id="power">
-            </div>
-            <div class="row">
-                <label for="storage">KWh</label>
-                <input class="inputs" type="text" id="storage">
-            </div>
-                <button class="btn" id="calculate" onclick="clicked()" >Calculate</button>
-                <div class="row">
-                    <label>Minutes</label>
-                    <span id="minutes"></span>
-                    <!-- <input class="inputs" type="text" id="minutes" readonly=""> -->
-                </div>
+      <p>
+        Enter the power rating of the charger & the size of the car's battery to
+        determine time required to charge.
+      </p>
+      <div class="grid">
+        <div class="row">
+          <label for="power">KW</label>
+          <input class="inputs" type="text" id="power" />
         </div>
+        <div class="row">
+          <label for="storage">KWh</label>
+          <input class="inputs" type="text" id="storage" />
+        </div>
+        <button class="btn" id="calculate">Calculate</button>
+        <div class="row">
+          <label>Minutes</label>
+          <span id="minutes"></span>
+          <!-- <input class="inputs" type="text" id="minutes" readonly=""> -->
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
