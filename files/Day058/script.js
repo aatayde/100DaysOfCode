@@ -1,5 +1,5 @@
-const power = Number(document.getElementById("power").value);
-const storage = Number(document.getElementById("storage").value);
+let power = Number(document.getElementById("power").value);
+let storage = Number(document.getElementById("storage").value);
 
 let calculate = document.getElementById("calculate");
 
@@ -7,7 +7,7 @@ function updateTime() {
   document.getElementById("minutes").innerText = (storage / power) * 60;
 }
 
-function handleEvent(event) {
+function handleEvent(power, storage) {
   console.log(power);
   console.log(storage);
 
