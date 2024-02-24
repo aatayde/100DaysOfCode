@@ -6,6 +6,6 @@
 
 ### something goes here
 
-What is a good idea for a component
+### Resources
 
-lets ask an AI to build a component with a plus button that increases the value exponentially
+- [React Documentation](https://react.dev/learn)
