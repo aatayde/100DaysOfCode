@@ -23,8 +23,8 @@ for (x = 0; accountTotal >= 0; x++) {
   // count payment amount & payments made
   totalPaymentsMade += 1;
   totalAmountPaid += monthlyPayment;
-  console.log("Payment amount: ", monthlyPayment);
   console.log("~~~~~~~~~~~~~~~~ Payments Made: ", totalPaymentsMade);
+  console.log("Payment amount: ", monthlyPayment);
   // A payment is made to the account
   accountTotal = accountTotal - monthlyPayment;
   console.log("account after payment", accountTotal);
@@ -35,13 +35,19 @@ for (x = 0; accountTotal >= 0; x++) {
   // Interest is calculated by using relative change
 
   //   interestRate = (accountTotal + interestAmount - accountTotal) / accountTotal;
-  //   console.log("interest rate", interestRate);
+  console.log("interest rate", interestRate);
+
+  // Add interest amount
+
+  interestAmount = interestRate * accountTotal;
 
   // Add interest rate to account Total
 
   console.log("interest amount", interestRate * accountTotal);
+  console.log("total interest accumulated: ", totalInterestAccumulated);
   accountTotal += interestRate * accountTotal;
   console.log("account total", accountTotal);
+  console.log("total amount paid: ", totalAmountPaid);
 }
 
 console.log("total interest accumulated: ", totalInterestAccumulated);
