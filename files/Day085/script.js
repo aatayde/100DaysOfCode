@@ -4,7 +4,8 @@
 
 let totalInterestAccumulated = 0;
 let totalAmountPaid = 0;
-let numberOfPaymentsMade = 0;
+let totalPaymentsMade = 0;
+let interestRate = 3.949;
 
 // Declare initial payment amount
 let monthlyPayment = 101;
@@ -14,22 +15,31 @@ let interestAmount = 72.02;
 
 // Declare amount for account
 let accountTotal = 2956.39;
+console.log("account amount", accountTotal);
+// Start a loop here
+for (x = 0; accountTotal >= 0; x++) {
+  // count payment amount & payments made
+  totalPaymentsMade += 1;
+  totalAmountPaid += monthlyPayment;
 
-// count payment amount & payments made
-numberOfPaymentsMade += 1;
-totalAmountPaid += monthlyPayment;
+  // A payment is made to the account
+  accountTotal -= monthlyPayment;
+  console.log("account total after payment", accountTotal);
 
-// A payment is made to the account
-accountTotal -= monthlyPayment;
+  // Add interest accumulated
+  totalInterestAccumulated += interestAmount;
 
-// Add interest accumulated
-totalInterestAccumulated += interestAmount;
+  // Interest is calculated by using relative change
 
-// Interest is calculated by using relative change
-let interestRate = ((accountTotal - interestAmount) / accountTotal) * 100;
-console.log(interestRate);
+  interestRate = (accountTotal + interestAmount - accountTotal) / accountTotal;
+  console.log("interest rate", interestRate);
 
-// Add interest rate to account Total
+  // Add interest rate to account Total
 
-accountTotal += interestRate * accountTotal;
-console.log(accountTotal);
+  accountTotal += interestRate * accountTotal;
+  console.log("account total", accountTotal);
+}
+
+console.log(totalAmountPaid);
+console.log(totalInterestAccumulated);
+console.log(totalPaymentsMade);
