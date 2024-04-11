@@ -4,7 +4,8 @@ function App() {
   return (
     <div>
       <header>
-        <p>edit me </p>
+        <h1>Relative Change Calculator</h1>
+        <h2>Day 86</h2>
       </header>
     </div>
   );
