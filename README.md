@@ -354,3 +354,7 @@ CSS Color Rotate
 ## [Day 86](./files/Day086/README.md)
 
     Double Counter in React
+
+## [Day 87](./files/Day087/README.md)
+
+    JavaScript Birthday Timer
