@@ -103,6 +103,10 @@ body {
   a {
     color: var(--soft-white);
   }
+  .input {
+    background-color: #333;
+    color: var(--soft-white);
+  }
 }
 
 @media (prefers-color-scheme: light) {
