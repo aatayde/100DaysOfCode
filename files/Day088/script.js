@@ -16,7 +16,7 @@ function updateOutput() {
 
   if (difference > 0) {
     // apply green text font
-    output.setAttribute("style", "color: #93E9BE");
+    output.setAttribute("style", "color: #19C870");
   } else {
     output.setAttribute("style", "color: #D22B2B");
   }
