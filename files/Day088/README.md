@@ -8,3 +8,12 @@
 - get the difference of the values
 - if the difference is positive show difference in green text
 - else show the difference in red text
+
+### In Progress
+
+- javascript logic
+- represent the difference on as #num3
+
+### Next
+
+- CSS Styling

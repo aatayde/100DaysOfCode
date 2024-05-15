@@ -14,7 +14,7 @@ function updateOutput() {
   // calculate the difference
   let difference = parseInt(num1.value, 10) - parseInt(num2.value, 10);
 
-  if (difference > 0) {
+  if (difference >= 0) {
     // apply green text font
     output.setAttribute("style", "color: #19C870");
   } else {
