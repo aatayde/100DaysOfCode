@@ -1,8 +1,3 @@
-# CSS Design Principles
+# CSS HSL
 
 ## Day 89
-
-- contrast
-- repetition
-- alignment
-- proximity

@@ -1,0 +1,13 @@
+.circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: hsl(0, 50%, 50%);
+
+  transition: all 3s;
+}
+
+.container {
+  display: grid;
+  justify-items: center;
+}
