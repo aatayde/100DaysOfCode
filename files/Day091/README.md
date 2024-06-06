@@ -4,3 +4,7 @@
 
 - create server
 - run server
+- requests
+- responses
+- routing
+- headers
