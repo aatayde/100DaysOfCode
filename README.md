@@ -370,3 +370,7 @@ CSS Color Rotate
 ## [Day 91](./files/Day091/README.md)
 
     Node.js creating a simple web server
+
+## [Day 92](./files/Day092/README.md)
+
+    Deploying Node.js Web Server In The Cloud
