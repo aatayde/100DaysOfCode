@@ -1,0 +1,26 @@
+body {
+  font: 100% Cursive, sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #e3e3e3;
+  font: 100% Cursive, sans-serif;
+}
+body .container {
+  background: DarkGray;
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #fff;
+  background-color: #222;
+}
+body .container .list {
+  background-color: #111;
+}
+body .container .list ul {
+  background-color: orange;
+}
+body .container .list ul li {
+  background-color: hsl(150, 66%, 75%);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+@use "fonts";
+@use "colors";
+
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+}
+
+body {
+  background-color: colors.$primary-color;
+  color: colors.$soft-white;
+  font: 100% fonts.$font-stack;
+
+  .container {
+    @include theme;
+    background-color: colors.$secondary-color;
+
+    .list {
+      background-color: colors.$tertiary-color;
+
+      ul {
+        background-color: colors.$OJ;
+        li {
+          background-color: colors.$sea-foam;
+        }
+      }
+    }
+  }
+}
