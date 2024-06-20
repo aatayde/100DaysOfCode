@@ -382,3 +382,7 @@ CSS Color Rotate
 ## [Day 94](./files/Day094/README.md)
 
     Markdown Style Guide
+
+## [Day 96](./files/Day096/README.md)
+
+    Start Page
