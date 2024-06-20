@@ -1,0 +1,8 @@
+.horizontal-bar {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  column-gap: 2rem;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto;
+}
