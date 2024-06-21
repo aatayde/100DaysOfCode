@@ -386,3 +386,7 @@ CSS Color Rotate
 ## [Day 96](./files/Day096/README.md)
 
     Start Page
+
+## [Day 97](./files/Day097/README.md)
+
+    About Page
