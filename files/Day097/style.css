@@ -1,0 +1,32 @@
+body {
+  /* reset */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background-color: #010101;
+  color: #e3e3e3;
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 1rem;
+  gap: 1rem;
+}
+.img {
+  width: 100%;
+}
+.box-title {
+  font-family: cursive;
+  /* text-align: center; */
+  font-size: 1.6em;
+}
+.box-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
