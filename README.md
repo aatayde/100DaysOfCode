@@ -390,3 +390,7 @@ CSS Color Rotate
 ## [Day 97](./files/Day097/README.md)
 
     About Page
+
+## [Day 98](./files/Day098/README.md)
+
+    CSS overlay with background image
