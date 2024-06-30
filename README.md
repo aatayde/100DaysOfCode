@@ -398,3 +398,7 @@ CSS Color Rotate
 ## [Day 99](./files/Day099/README.md)
 
     CSS Responsive Guide
+
+## [Day 100](./files/Day0100/README.md)
+
+    Powershell File Read & Write
