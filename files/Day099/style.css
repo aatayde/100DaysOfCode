@@ -1,0 +1,37 @@
+/* CSS reset */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  width: auto;
+
+  /* dark background */
+  background-color: hsl(0, 0%, 0% / 1);
+}
+
+/* responsive images */
+img {
+  display: block;
+  /* image is 100% of the widths screen */
+  max-width: 100%;
+}
+
+.container {
+  /* min  */
+  max-height: 960px;
+  margin-inline: auto;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-evenly;
+  /* responsive horizontal wrapping */
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
