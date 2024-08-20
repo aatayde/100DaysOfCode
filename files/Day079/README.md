@@ -55,7 +55,7 @@ the grep command returns lines that match patterns. returning the first line wit
 
 Now I need to grab the 4th word of the line. quick search returned the command cut, removes sections from each line of files. cut by itself does not work, must specify a list of bytes, characters or fields. in this case, I would like to use white spaces to separate each word. cut + delimiter option + white space + field number returns the ip address.
 
-    ping 192.168.0.1 -c 1 | grep "64 bytes" | -d " " -f 4
+    ping 192.168.0.1 -c 1 | grep "64 bytes" | cut -d " " -f 4
 
 the only missing part is the colon.
 quick google search returned tr command.
@@ -67,7 +67,7 @@ tr command translates or deletes characters to delete the colon from the ip addr
 
 now that we have a the complete command, lets create a script.
 
-ipsweep.sh is the script we are going to run. 
+[ipsweep.sh](./ipsweep.sh) is the script we are going to run. 
 to run this scricp, change the permissions to execute it.
 use the chmod + executable to start running the script.
 
